@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Weather Applet
-TryExec=vala-panel-extras-weather
-Icon=weather-clear

@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Network Load Indicator
-TryExec=vala-panel-extras-gtop
-Icon=network-wired
