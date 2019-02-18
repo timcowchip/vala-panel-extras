@@ -1,0 +1,2616 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Gofer <vovka@hotbox.ru>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxpanel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-24 20:14+0600\n"
+"PO-Revision-Date: 2015-05-24 20:16+0600\n"
+"Last-Translator: Andriy Grytsenko <andrej@rep.kiev.ua>\n"
+"Language-Team: Russian <hsh@runtu.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-POOTLE-MTIME: 1407841216.000000\n"
+
+#: ../lib/menuserializer.vala:167
+msgctxt "default text direction"
+msgid "ltr"
+msgstr "ltr"
+
+#: ../lib/configurator.vala:23
+msgid "_Close"
+msgstr "_Закрыть"
+
+#: ../lib/configurator.vala:68 ../lib/configurator.vala:106
+msgid "Select a file"
+msgstr "Выбрать файл"
+
+#: ../lib/configurator.vala:98
+msgid "_Browse"
+msgstr "_Обзор"
+
+#: ../lib/configurator.vala:106
+msgid "Select a directory"
+msgstr "Выбрать каталог"
+
+#: ../lib/configurator.vala:109
+msgid "_Cancel"
+msgstr "О_тмена"
+
+#: ../lib/configurator.vala:110
+msgid "_OK"
+msgstr "_ОК"
+
+#: ../lib/application.vala:11
+msgid "Print version and exit"
+msgstr "Показать версию и выйти"
+
+#: ../lib/application.vala:101
+msgid "%s - Version %s\n"
+msgstr "%s - Версия %s\n"
+
+#: ../lib/application.vala:151
+msgid "Vala Panel Extras"
+msgstr "Расширения Vala Panel"
+
+#: ../lib/application.vala:152
+msgid "Status Notifier Items for Vala Panel"
+msgstr "Апплеты StatusNotifier для Vala Panel"
+
+#: ../lib/application.vala:154
+msgid "Vala Panel Website"
+msgstr "Сайт Vala Panel"
+
+#: ../lib/application.vala:156
+msgid "Replace this string by your names, one name per line."
+msgstr "Athor <ria.freelander@gmail.com>"
+
+#: ../lib/snitemproxy.vala:118
+msgid "_Preferences..."
+msgstr "_Настройка..."
+
+#: ../lib/snitemproxy.vala:122
+msgid "_About..."
+msgstr "О _программе..."
+
+#: ../lib/snitemproxy.vala:126
+msgid "_Quit"
+msgstr "_Выход"
+
+#: ../applets/xkb/xkb.vala:44
+msgid "Keyboard Layout Applet"
+msgstr "Апплет переключения раскладки клавиатуры"
+
+#: ../applets/xkb/xkb.vala:55
+msgid "Vala Panel Keyboard Layout Applet"
+msgstr "Апплет переключения раскладки клавиатуры Vala Panel"
+
+#: ../applets/xkb/xkb.vala:56
+msgid "Simple keyboard layout indicator."
+msgstr "Простой индикатор раскладки клавиатуры"
+
+#: ../applets/xkb/xkb-backend.vala:102
+msgid "XKB extension error. Keyboard layout plugin will not work"
+msgstr "Ошибка XKB.Переключатель раскладки работать не будет."
+
+#: ../applets/xkb/xkb-config.vala:57
+msgid "Cannot initialize xkeyboard-config!"
+msgstr "Ошибка инициализации xkeyboard-config!"
+
+#: ../applets/volume/volume.vala:64
+msgid "ALSA (or pulseaudio) had a problem."
+msgstr "Проблема ALSA (или pulseaudio)."
+
+#: ../applets/volume/volume.vala:65
+msgid " Please check the volume-applet logs."
+msgstr "Проверьте файлы журнала апплета."
+
+#: ../applets/volume/volume.vala:228
+msgid "ALSA is not connected"
+msgstr "ALSA не активирована"
+
+#: ../applets/volume/volume.vala:364 ../applets/volume/volume.vala:422
+msgid "Vala Panel Volume Applet"
+msgstr "Апплет громкости Vala Panel"
+
+#: ../applets/volume/volume.vala:366
+msgid "ALSA Card"
+msgstr "Имя карты ALSA"
+
+#: ../applets/volume/volume.vala:367
+msgid "ALSA Channel"
+msgstr "Имя канала ALSA"
+
+#: ../applets/volume/volume.vala:368
+msgid "Mixer launch command"
+msgstr "Команда запуска микшера"
+
+#: ../applets/volume/volume.vala:375
+msgid "Volume Applet"
+msgstr "Регулятор громкости"
+
+#: ../applets/volume/volume.vala:382
+msgid "Volume _Control..."
+msgstr "Управление _громкостью..."
+
+#: ../applets/volume/volume.vala:392
+msgid "_Mute"
+msgstr "Выключить _звук"
+
+#: ../applets/volume/volume.vala:402
+msgid "Volume Scale"
+msgstr "Апплет громкости"
+
+#: ../applets/volume/volume.vala:423
+msgid "Simple ALSA playback volume indicator."
+msgstr "Простой индикатор громкости проигрывания ALSA."
+
+#: ../applets/batt/upower-iface.vala:34
+msgid "Unknown"
+msgstr "Неизвестен"
+
+#: ../applets/batt/upower-iface.vala:36
+msgid "Line Power"
+msgstr "Линейный вход"
+
+#: ../applets/batt/upower-iface.vala:38
+msgid "Battery"
+msgstr "Батарея"
+
+#: ../applets/batt/upower-iface.vala:40
+msgid "UPS"
+msgstr "UPS"
+
+#: ../applets/batt/upower-iface.vala:42
+msgid "Monitor"
+msgstr "Монитор"
+
+#: ../applets/batt/upower-iface.vala:44
+msgid "Mouse"
+msgstr "Мышь"
+
+#: ../applets/batt/upower-iface.vala:46
+msgid "Keyboard"
+msgstr "Клавиатура"
+
+#: ../applets/batt/upower-iface.vala:48
+msgid "PDA"
+msgstr "КПК"
+
+#: ../applets/batt/upower-iface.vala:50
+msgid "Phone"
+msgstr "Телефон"
+
+#: ../applets/batt/battery.vala:52 ../applets/batt/battery.vala:107
+msgid "Battery is discharging. %3.0lf%% remaining."
+msgstr "Батарея разряжается.Осталось %3.0lf%%."
+
+#: ../applets/batt/battery.vala:53 ../applets/batt/battery.vala:108
+msgid "%02lli:%02lli remaining to empty."
+msgstr "До полной разрядки осталось %02lli:%02lli."
+
+#: ../applets/batt/battery.vala:56 ../applets/batt/battery.vala:114
+msgid "Battery is charging. %3.0lf%% charged."
+msgstr "Battery is charging. %3.0lf%% charged."
+
+#: ../applets/batt/battery.vala:57 ../applets/batt/battery.vala:115
+msgid "%02lli:%02lli remaining to full."
+msgstr "До полной зарядки осталось %02lli:%02lli."
+
+#: ../applets/batt/battery.vala:60 ../applets/batt/battery.vala:120
+msgid "Battery is charged."
+msgstr "Батарея заряжена"
+
+#: ../applets/batt/battery.vala:61 ../applets/batt/battery.vala:64
+#: ../applets/batt/battery.vala:121 ../applets/batt/battery.vala:126
+msgid "Battery percentage: %3.0lf%%."
+msgstr "Батарея заряжена на %3.0lf%%."
+
+#: ../applets/batt/battery.vala:77
+msgid "Battery is low!"
+msgstr "Низкий заряд батареи!"
+
+#: ../applets/batt/battery.vala:80
+msgid "Battery is very low!"
+msgstr "Очень низкий заряд батареи!"
+
+#: ../applets/batt/battery.vala:84
+msgid "Battery is critical!"
+msgstr "Критически низкий заряд батареи!"
+
+#: ../applets/batt/battery.vala:268 ../applets/batt/battery.vala:286
+msgid "Vala Panel Battery Applet"
+msgstr "Апллет батареи Vala Panel"
+
+#: ../applets/batt/battery.vala:270
+msgid "Use notifications"
+msgstr "Использовать уведомления"
+
+#: ../applets/batt/battery.vala:271
+msgid "Show percentage"
+msgstr "Показывать процент"
+
+#: ../applets/batt/battery.vala:272
+msgid "Show time remaining"
+msgstr "Показывать оставшееся время"
+
+#: ../applets/batt/battery.vala:273
+msgid "Power manager command"
+msgstr "Команда запуска параметров электропитания"
+
+#: ../applets/batt/battery.vala:274
+msgid "Display device path"
+msgstr "Путь к показываемому устройству"
+
+#: ../applets/batt/battery.vala:281
+msgid "Battery Applet"
+msgstr "Апплет батареи"
+
+#: ../applets/batt/battery.vala:287
+msgid "Simple UPower based battery indicator."
+msgstr "Простой апплет батареи, основанный на UPower."
+
+#: ../applets/weather/weather.vala:42
+#: ../applets/weather/org.valapanel.weather.desktop.in:4
+msgid "Weather Applet"
+msgstr "Апплет погоды"
+
+#: ../applets/weather/weather.vala:50
+msgid "Vala Panel Weather Applet"
+msgstr "Апплет погоды Vala Panel"
+
+#: ../applets/weather/weather.vala:51
+msgid "Simple weather indicator."
+msgstr "Простой индикатор погоды"
+
+#: ../applets/weather/weather.vala:65
+msgid "Refresh"
+msgstr "Обновить"
+
+#: ../applets/weather/weather.vala:70
+msgid "Forecast..."
+msgstr "Прогноз..."
+
+#: ../applets/weather/weather.vala:110 ../applets/gtop/gtop.vala:36
+msgid "No network connection"
+msgstr "Нет соединения"
+
+#: ../applets/weather/weather.vala:111 ../applets/gtop/gtop.vala:37
+msgid "or no location."
+msgstr "или не задана местность"
+
+#: ../applets/weather/weather.vala:185
+msgid "Conditions: %s"
+msgstr "На улице: %s"
+
+#: ../applets/weather/weather.vala:186
+msgid "Temperature: %s"
+msgstr "Температура: %s"
+
+#: ../applets/weather/weather.vala:187
+msgid "Humidity: %s"
+msgstr "Влажность: %s"
+
+#: ../applets/weather/weather.vala:188
+msgid "Wind: %s"
+msgstr "Ветер: %s"
+
+#: ../applets/weather/weather.vala:189
+msgid "Sunrise: %s"
+msgstr "Восход: %s"
+
+#: ../applets/weather/weather.vala:190
+msgid "Sunset: %s"
+msgstr "Закат: %s"
+
+#: ../applets/weather/weather.vala:191
+msgid "Refresh... (%s)"
+msgstr "Обновить... (%s)"
+
+#: ../applets/weather/weather.vala:197
+msgid "Pressure:"
+msgstr "Давление:"
+
+#: ../applets/weather/weather.vala:198
+msgid "Wind:"
+msgstr "Ветер:"
+
+#: ../applets/weather/weather-forecast.vala:27
+msgid "Extended forecast for %s"
+msgstr "Расширенный прогноз для города %s"
+
+#: ../applets/gtop/gtop.vala:66
+msgid "Network Statistics"
+msgstr "Статистика сети"
+
+#: ../applets/gtop/gtop.vala:67
+msgid ""
+"Up: %s\n"
+"Down: %s"
+msgstr ""
+"Отдача: %s\n"
+"Загрузка: %s"
+
+#: ../applets/gtop/gtop.vala:73 ../applets/gtop/gtop.vala:295
+msgid "Vala Panel Netload Applet"
+msgstr "Апплет загрузки сети Vala Panel"
+
+#: ../applets/gtop/gtop.vala:75
+msgid "Select network interface"
+msgstr "Выбрать сетевой интерфейс"
+
+#: ../applets/gtop/gtop.vala:76
+msgid "Reload network interfaces"
+msgstr "Перезагрузить сетевой интерфейс"
+
+#: ../applets/gtop/gtop.vala:111
+msgid "b"
+msgstr "б"
+
+#: ../applets/gtop/gtop.vala:112 ../applets/gtop/gtop.vala:113
+msgid "B"
+msgstr "Б"
+
+#: ../applets/gtop/gtop.vala:120
+msgid "kb"
+msgstr "Кбит"
+
+#: ../applets/gtop/gtop.vala:121
+msgid "kB"
+msgstr "КБ"
+
+#: ../applets/gtop/gtop.vala:122
+msgid "KiB"
+msgstr "КиБ"
+
+#: ../applets/gtop/gtop.vala:129
+msgid "Mb"
+msgstr "Мбит"
+
+#: ../applets/gtop/gtop.vala:130
+msgid "MB"
+msgstr "МБ"
+
+#: ../applets/gtop/gtop.vala:131
+msgid "MiB"
+msgstr "МиБ"
+
+#: ../applets/gtop/gtop.vala:138
+msgid "Gb"
+msgstr "Гбит"
+
+#: ../applets/gtop/gtop.vala:139
+msgid "GB"
+msgstr "ГБ"
+
+#: ../applets/gtop/gtop.vala:140
+msgid "GiB"
+msgstr "ГиБ"
+
+#: ../applets/gtop/gtop.vala:147
+msgid "Tb"
+msgstr "Тбит"
+
+#: ../applets/gtop/gtop.vala:148
+msgid "TB"
+msgstr "ТБ"
+
+#: ../applets/gtop/gtop.vala:149
+msgid "TiB"
+msgstr "ТиБ"
+
+#: ../applets/gtop/gtop.vala:156
+msgid "Pb"
+msgstr "Пбит"
+
+#: ../applets/gtop/gtop.vala:157
+msgid "PB"
+msgstr "ПБ"
+
+#: ../applets/gtop/gtop.vala:158
+msgid "PiB"
+msgstr "ПиБ"
+
+#: ../applets/gtop/gtop.vala:259
+msgid "All"
+msgstr "Все"
+
+#: ../applets/gtop/gtop.vala:271
+msgid "Netload Applet"
+msgstr "Апплет загрузки сети"
+
+#: ../applets/gtop/gtop.vala:278
+msgid "Interfaces"
+msgstr "Интерфейсы"
+
+#: ../applets/gtop/gtop.vala:285
+msgid "Down"
+msgstr "Загрузка"
+
+#: ../applets/gtop/gtop.vala:289
+msgid "Up"
+msgstr "Отдача"
+
+#: ../applets/gtop/gtop.vala:296
+msgid "Simple LibGTop based network indicator."
+msgstr "Простой индикатор загрузки сети на libgtop."
+
+#: ../applets/xkb/config.ui:43
+msgid "Keyboard Layout Settings"
+msgstr "Настройки раскладки клавиатуры"
+
+#: ../applets/xkb/config.ui:86
+msgid "Select layout per one window"
+msgstr "Разная раскладка для каждого окна"
+
+#: ../applets/xkb/config.ui:101
+msgid "Show country flag"
+msgstr "Показывать флаг страны"
+
+#: ../applets/xkb/config.ui:116
+msgid "Show country code"
+msgstr "Показывать код страны"
+
+#: ../applets/xkb/config.ui:131
+msgid "Keep system layouts"
+msgstr "Использовать системную раскладку"
+
+#: ../applets/xkb/config.ui:150
+msgid "Indicator options"
+msgstr "Настройки индикатора"
+
+#: ../applets/xkb/config.ui:203 ../applets/xkb/config.ui:454
+msgid "Flag"
+msgstr "Флаг"
+
+#: ../applets/xkb/config.ui:217 ../applets/xkb/config.ui:468
+msgid "Layout Name"
+msgstr "Название раскладки"
+
+#: ../applets/xkb/config.ui:228 ../applets/xkb/config.ui:479
+msgid "Layout ID"
+msgstr "Код языка"
+
+#: ../applets/xkb/config.ui:239 ../applets/xkb/config.ui:490
+msgid "Variant ID"
+msgstr "Код варианта"
+
+#: ../applets/xkb/config.ui:332
+msgid "Layouts"
+msgstr "Раскладки"
+
+#: ../applets/xkb/config.ui:364
+msgid "Model"
+msgstr "Модель"
+
+#: ../applets/xkb/config.ui:396
+msgid "Options"
+msgstr "Настройки"
+
+#: ../applets/xkb/config.ui:530 ../applets/xkb/config.ui:589
+msgid "Use"
+msgstr "Использовать"
+
+#: ../applets/xkb/config.ui:544
+msgid "Model Name"
+msgstr "Модель"
+
+#: ../applets/xkb/config.ui:604
+msgid "Option Name"
+msgstr "Настройка"
+
+#: ../applets/weather/ui/config.ui:25
+msgid "Weather Indicator Preferences"
+msgstr "Настройки индикатора погоды"
+
+#: ../applets/weather/ui/config.ui:74
+msgid "<b>Appearance and Update</b>"
+msgstr "<b>Внешний вид и обновление</b>"
+
+#: ../applets/weather/ui/config.ui:85
+msgid "Show temperature near indicator"
+msgstr "Показывать температуру рядом со значком"
+
+#: ../applets/weather/ui/config.ui:109
+msgid "Update every"
+msgstr "Обновлять каждые"
+
+#: ../applets/weather/ui/config.ui:123
+msgid "1"
+msgstr "1"
+
+#: ../applets/weather/ui/config.ui:138
+msgid "minutes"
+msgstr "минут"
+
+#: ../applets/weather/ui/config.ui:159
+msgid "General"
+msgstr "Общие"
+
+#: ../applets/weather/ui/config.ui:182
+msgid "<b>Temperature Scale</b>"
+msgstr "<b>Шкала температур</b>"
+
+#: ../applets/weather/ui/config.ui:199
+msgid "Imperial (°F)"
+msgstr "Фаренгейта (°F)"
+
+#: ../applets/weather/ui/config.ui:215
+msgid "SI (metric, °C)"
+msgstr "СИ (метрическая, °C)"
+
+#: ../applets/weather/ui/config.ui:232
+msgid "Kelvin (K)"
+msgstr "Кельвины (K)"
+
+#: ../applets/weather/ui/config.ui:272
+msgid "<b>Wind Speed Unit</b>"
+msgstr "<b>Единица скорости ветра</b>"
+
+#: ../applets/weather/ui/config.ui:289
+msgid "Meters per second (m/s)"
+msgstr "Метр в секунду (m/s)"
+
+#: ../applets/weather/ui/config.ui:305
+msgid "Miles per hour (mph)"
+msgstr "Миля в секунду (mph)"
+
+#: ../applets/weather/ui/config.ui:322
+msgid "Kilometers per hour (km/h)"
+msgstr "Километр в час (km/h)"
+
+#: ../applets/weather/ui/config.ui:339
+msgid "Beaufort number"
+msgstr "Шкала Бофорта"
+
+#: ../applets/weather/ui/config.ui:356
+msgid "Knots"
+msgstr "Узлы"
+
+#: ../applets/weather/ui/config.ui:394
+msgid "Units"
+msgstr "Единицы измерения"
+
+#: ../applets/weather/ui/config.ui:427
+msgid "Active"
+msgstr "Активно"
+
+#: ../applets/weather/ui/config.ui:442
+msgid "Location Name"
+msgstr "Название места"
+
+#: ../applets/weather/ui/config.ui:524
+msgid "Locations"
+msgstr "Места"
+
+#: ../applets/weather/ui/forecast.ui:21
+msgid "Extended Forecast"
+msgstr "Расширенный прогноз"
+
+#: ../applets/weather/ui/forecast.ui:51
+msgid "Date"
+msgstr "Дата"
+
+#: ../applets/weather/ui/forecast.ui:62
+msgid "Icon"
+msgstr "Значок"
+
+#: ../applets/weather/ui/forecast.ui:75
+msgid "Conditions"
+msgstr "На улице"
+
+#: ../applets/weather/ui/forecast.ui:86
+msgid "Temperature"
+msgstr "Температура"
+
+#: ../applets/weather/ui/forecast.ui:108
+msgid "Attrbution"
+msgstr "Сайт"
+
+#: ../applets/xkb/org.valapanel.xkb.desktop.in:4
+msgid "Keyboard Layout Indicator"
+msgstr "Индикатор раскладки клавиатуры"
+
+#: ../applets/xkb/org.valapanel.xkb.desktop.in:6
+msgid "input-keyboard"
+msgstr "input-keyboard"
+
+#: ../applets/volume/org.valapanel.volume.desktop.in:4
+msgid "ALSA Volume Control Applet"
+msgstr "Апплет управления громкостью ALSA"
+
+#: ../applets/volume/org.valapanel.volume.desktop.in:6
+msgid "multimedia-volume-control"
+msgstr "multimedia-volume-control"
+
+#: ../applets/batt/org.valapanel.battery.desktop.in:4
+msgid "Battery Indicator"
+msgstr "Индикатор батареи"
+
+#: ../applets/batt/org.valapanel.battery.desktop.in:6
+msgid "battery"
+msgstr "battery"
+
+#: ../applets/weather/org.valapanel.weather.desktop.in:6
+msgid "weather-clear"
+msgstr "weather-clear"
+
+#: ../applets/gtop/org.valapanel.gtop.desktop.in:4
+msgid "Network Load Indicator"
+msgstr "Индикатор загрузки сети"
+
+#: ../applets/gtop/org.valapanel.gtop.desktop.in:6
+msgid "network-wired"
+msgstr "network-wired"
+
+#~ msgid "Volume Control..."
+#~ msgstr "Управление громкостью..."
+
+#~ msgid "There is no room for another panel. All the edges are taken."
+#~ msgstr "Нет места для новой панели. Все стороны экрана заняты."
+
+#~ msgid "Error"
+#~ msgstr "Ошибка"
+
+#~ msgid ""
+#~ "Really delete this panel?\n"
+#~ "<b>Warning: This can not be recovered.</b>"
+#~ msgstr ""
+#~ "Вы точно хотите удалить панель?\n"
+#~ "<b>Внимание: это необратимая операция.</b>"
+
+#~ msgid "Confirm"
+#~ msgstr "Подтвердить"
+
+#~ msgid "Top"
+#~ msgstr "Сверху"
+
+#~ msgid "Bottom"
+#~ msgstr "Снизу"
+
+#~ msgid "Left"
+#~ msgstr "Слева"
+
+#~ msgid "Right"
+#~ msgstr "Справа"
+
+#~ msgid "Start"
+#~ msgstr "К началу"
+
+#~ msgid "Center"
+#~ msgstr "По центру"
+
+#~ msgid "End"
+#~ msgstr "К концу"
+
+#~ msgid "Currently loaded plugins"
+#~ msgstr "Загруженные модули"
+
+#~ msgid "Stretch"
+#~ msgstr "Растянуть"
+
+#~ msgid "Available plugins"
+#~ msgstr "Доступные модули"
+
+#~ msgid "Use specified profile"
+#~ msgstr "Использовать специфичный профиль"
+
+#~ msgid "profile"
+#~ msgstr "профиль"
+
+#~ msgid "Run command on already opened panel"
+#~ msgstr "Выполнить команду на открытом приложении"
+
+#~ msgid "cmd"
+#~ msgstr "cmd"
+
+#~ msgid ""
+#~ "%s: invalid command - %s. Doing nothing.\n"
+#~ "Valid commands: %s\n"
+#~ msgstr ""
+#~ "%s: неверная команда - %s. Ничего не выполнено.\n"
+#~ "Список команд: %s\n"
+
+#~ msgid "Separator Applet"
+#~ msgstr "Разделитель"
+
+#~ msgid "Size"
+#~ msgstr "Размер"
+
+#~ msgid "Visible separator"
+#~ msgstr "Показывать разделитель"
+
+#~ msgid "Custom Menu"
+#~ msgstr "Меню"
+
+#~ msgid ""
+#~ "If internal menu is enabled, menu file will not be used, predefeined menu "
+#~ "will be used instead."
+#~ msgstr ""
+#~ "Если включено, то будет использовано встроенное меню, файл использован не "
+#~ "будет."
+
+#~ msgid "Is internal menu"
+#~ msgstr "Использовать встроенное меню."
+
+#~ msgid "Is system menu (can be keybound)"
+#~ msgstr "Считать системным (привязывается к команде панели)"
+
+#~ msgid "Is Menubar"
+#~ msgstr "Является панелью меню."
+
+#~ msgid "Caption (for button only)"
+#~ msgstr "Название (только для кнопки)"
+
+#~ msgid "Menu file name"
+#~ msgstr "Имя файла меню"
+
+#~ msgid "Home"
+#~ msgstr "Домашняя папка"
+
+#~ msgid "Desktop"
+#~ msgstr "Рабочий стол"
+
+#~ msgid "Search..."
+#~ msgstr "Поиск файла..."
+
+#~ msgid "Control center"
+#~ msgstr "Центр управления"
+
+#~ msgid "Applications"
+#~ msgstr "Приложения"
+
+#~ msgid "Places"
+#~ msgstr "Переход"
+
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "Vala Panel"
+#~ msgstr "Vala Panel"
+
+#~ msgid "Keyboard LED"
+#~ msgstr "Клавиатурный индикатор"
+
+#~ msgid "Show CapsLock"
+#~ msgstr "Показать CapsLock"
+
+#~ msgid "Show NumLock"
+#~ msgstr "Показать NumLock"
+
+#~ msgid "StatusNotifier"
+#~ msgstr "StatusNotifier"
+
+#~ msgid "Use symbolic icons"
+#~ msgstr "Использовать монохромные значки"
+
+#~ msgid "Indicator icon size"
+#~ msgstr "Размер индикатора"
+
+#~ msgid "Show applications status items"
+#~ msgstr "Показывать значки статуса"
+
+#~ msgid "Show communications applications"
+#~ msgstr "Показывать значки коммуникаций"
+
+#~ msgid "Show system services"
+#~ msgstr "Показывать значки системных служб"
+
+#~ msgid "Show hardware services"
+#~ msgstr "Показывать значки устройств"
+
+#~ msgid "Show passive items"
+#~ msgstr "Показывать пассивные значки"
+
+#~ msgid "Quicklaunch already contains this application.\n"
+#~ msgstr "На этом апплете уже есть такое приложение.\n"
+
+#~ msgid "Select a file for launcher"
+#~ msgstr "Выберите файл для добавления на панель запуска"
+
+#~ msgid "Quicklaunch already contains this URI.\n"
+#~ msgstr "Панель запуска уже содержит этот адрес.\n"
+
+#~ msgid "Add application..."
+#~ msgstr "Добавить приложение..."
+
+#~ msgid "Add file..."
+#~ msgstr "Добавить файл..."
+
+#~ msgid "_Open"
+#~ msgstr "_Открыть"
+
+#~ msgid "Open in _Terminal"
+#~ msgstr "Открыть в _Терминале"
+
+#~ msgid "Directory Menu"
+#~ msgstr "Структура каталогов"
+
+#~ msgid "Directory"
+#~ msgstr "Корень"
+
+#~ msgid "Label"
+#~ msgstr "Метка"
+
+#~ msgid "Digital Clock"
+#~ msgstr "Цифровые часы"
+
+#~ msgid "Clock Format"
+#~ msgstr "Формат часов"
+
+#~ msgid "Tooltip Format"
+#~ msgstr "Формат подсказок"
+
+#~ msgid "Format codes: man 3 strftime; %n for line break"
+#~ msgstr ""
+#~ "Справка о форматах: man 3 strftime; для разделителя строки используется "
+#~ "%n."
+
+#~ msgid "Bold font"
+#~ msgstr "Жирный шрифт"
+
+#~ msgid "Tasklist Applet"
+#~ msgstr "Панель задач"
+
+#~ msgid "Show windows from all desktops"
+#~ msgstr "Показывать окна всех рабочих мест"
+
+#~ msgid "Show window`s workspace on unminimize"
+#~ msgstr "Показывать рабочий стол окна при разворачивании"
+
+#~ msgid "Close windows on middle click"
+#~ msgstr "Закрывать окна средней кнопкой мыши"
+
+#~ msgid "Group windows when needed"
+#~ msgstr "Группировать окна при необходимости"
+
+#~ msgid "Ungrouped buttons limit"
+#~ msgstr "Количество кнопок до включения группировки"
+
+#~ msgid "Unexpanded size limit"
+#~ msgstr "Размер апплета"
+
+#~ msgid "Workspaces..."
+#~ msgstr "Рабочие столы..."
+
+#~ msgid "Desktop Number / Workspace Name"
+#~ msgstr "Номер и имя рабочего места"
+
+#~ msgid "Display desktop names"
+#~ msgstr "Отображать имена рабочих столов"
+
+#~ msgid "Minimize All Windows"
+#~ msgstr "Свернуть все окна"
+
+#~ msgid "Alternately iconify/shade and raise"
+#~ msgstr "Альтернативно свернуть в значок/скрыть и развернуть"
+
+#~ msgid "_Top"
+#~ msgstr "С_верху"
+
+#~ msgid "_Bottom"
+#~ msgstr "С_низу"
+
+#~ msgid "_Left"
+#~ msgstr "С_лева"
+
+#~ msgid "_Right"
+#~ msgstr "С_права"
+
+#~ msgid "_Start"
+#~ msgstr "К _началу"
+
+#~ msgid "_Center"
+#~ msgstr "По _центру"
+
+#~ msgid "_End"
+#~ msgstr "К _концу"
+
+#~ msgid "Panel preferences"
+#~ msgstr "Настройки панели"
+
+#~ msgid "Margin:"
+#~ msgstr "Отступ:"
+
+#~ msgid "Edge:"
+#~ msgstr "Расположение:"
+
+#~ msgid "Alignment:"
+#~ msgstr "Выравнивание:"
+
+#~ msgid "Monitor:"
+#~ msgstr "Монитор:"
+
+#~ msgid "Advanced properties"
+#~ msgstr "Дополнительные настройки"
+
+#~ msgid "Count as dock:"
+#~ msgstr "Считать доком:"
+
+#~ msgid "Reserve space:"
+#~ msgstr "Выделять место:"
+
+#~ msgid "Placement properties"
+#~ msgstr "Настройки размещения"
+
+#~ msgid "Position"
+#~ msgstr "Позиция"
+
+#~ msgid "Icon size:"
+#~ msgstr "Размер значков:"
+
+#~ msgid "Height:"
+#~ msgstr "Высота:"
+
+#~ msgid "Width:"
+#~ msgstr "Ширина:"
+
+#~ msgid "Size properties"
+#~ msgstr "Настройки размера"
+
+#~ msgid "Automatic hide panel"
+#~ msgstr "Настройки автоскрытия"
+
+#~ msgid "Show hidden:"
+#~ msgstr "Показывать линию:"
+
+#~ msgid "Autohide:"
+#~ msgstr "Автоскрытие:"
+
+#~ msgid "Foreground color:"
+#~ msgstr "Цвет шрифта:"
+
+#~ msgid "Background image:"
+#~ msgstr "Цвет фона:"
+
+#~ msgid "Background color:"
+#~ msgstr "Фоновое изображение:"
+
+#~ msgid "Font:"
+#~ msgstr "Шрифт:"
+
+#~ msgid "Round corners size:"
+#~ msgstr "Радиус угла:"
+
+#~ msgid "Select background color"
+#~ msgstr "Выберите цвет фона"
+
+#~ msgid "Select foreground color"
+#~ msgstr "Выберите цвет шрифта"
+
+#~ msgid "Select an Image"
+#~ msgstr "Выберите изображение"
+
+#~ msgid "Select panel font"
+#~ msgstr "Выберите шрифт панели"
+
+#~ msgid "Size only"
+#~ msgstr "Только размер"
+
+#~ msgid "Appearance"
+#~ msgstr "Внешний вид"
+
+#~ msgid "Plugins"
+#~ msgstr "Модули"
+
+#~ msgid "Configure applet..."
+#~ msgstr "Настроить апплет..."
+
+#~ msgid "Remove applet"
+#~ msgstr "Удалить апплет"
+
+#~ msgid "Panel Items..."
+#~ msgstr "Апплеты..."
+
+#~ msgid "Panel Settings..."
+#~ msgstr "Настройка панели.."
+
+#~ msgid "New Panel"
+#~ msgstr "Новая панель"
+
+#~ msgid "Remove this Panel"
+#~ msgstr "Удалить эту панель"
+
+#~ msgid "Application Settings"
+#~ msgstr "Настройки приложения..."
+
+#~ msgid "About"
+#~ msgstr "О программе..."
+
+#~ msgid "Run..."
+#~ msgstr "Выполнить..."
+
+#~ msgid "Terminal toggle button"
+#~ msgstr "Кнопка включения запуска в терминале"
+
+#~ msgid "Enter application name..."
+#~ msgstr "Введите команду..."
+
+#~ msgid "Runnable command name"
+#~ msgstr "Команда для запуска"
+
+#~ msgid "Cancel button"
+#~ msgstr "Кнопка отмены"
+
+#~ msgid "Simple GTK+ desktop panel. "
+#~ msgstr "Панель для рабочего стола на GTK+"
+
+#~ msgid "https://vala-panel.github.io"
+#~ msgstr "https://vala-panel.github.io"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "переводчикиHsH <hsh@runtu.org>\n"
+#~ "Alexander Kazancev <kazancas@mandiriva.ru>\n"
+#~ "Athor <ria.freelander@gmail.com>"
+
+#~ msgid "Application preferences"
+#~ msgstr "Настройка приложения"
+
+#~ msgid "Logout manager..."
+#~ msgstr "Команда выхода из системы..."
+
+#~ msgid "Shutdown application..."
+#~ msgstr "Команда завершения работы..."
+
+#~ msgid "Preferred Applications:"
+#~ msgstr "Предпочитаемые приложения:"
+
+#~ msgid "Use dark theme"
+#~ msgstr "Использовать темный вариант"
+
+#~ msgid "Use custom CSS"
+#~ msgstr "Использовать выбранный CSS"
+
+#~ msgid "Select a CSS File"
+#~ msgstr "Выберите тему в формате CSS."
+
+#~ msgid "Widget Style"
+#~ msgstr "Стиль виджетов"
+
+#~ msgid "Audio and Video"
+#~ msgstr "Мультимедиа"
+
+#~ msgid "Education"
+#~ msgstr "Обучение"
+
+#~ msgid "Game"
+#~ msgstr "Игры"
+
+#~ msgid "Graphics"
+#~ msgstr "Графика"
+
+#~ msgid "Network"
+#~ msgstr "Сети"
+
+#~ msgid "Office"
+#~ msgstr "Офис"
+
+#~ msgid "Settings"
+#~ msgstr "Параметры"
+
+#~ msgid "Utility"
+#~ msgstr "Утилиты"
+
+#~ msgid "Development"
+#~ msgstr "Разработка"
+
+#~ msgid "Other"
+#~ msgstr "Прочее"
+
+#~ msgid "Computer"
+#~ msgstr "Компьютер"
+
+#~ msgid "Trash"
+#~ msgstr "Корзина"
+
+#~ msgid "Connect to server..."
+#~ msgstr "Подключиться к серверу..."
+
+#~ msgid "Recent documents"
+#~ msgstr "Недавние документы"
+
+#~ msgid "Run"
+#~ msgstr "Выполнить"
+
+#~ msgid "Log Out..."
+#~ msgstr "Выход из системы..."
+
+#~ msgid "Shut down..."
+#~ msgstr "Завершение работы..."
+
+#~ msgid "Separator"
+#~ msgstr "Разделитель"
+
+#~ msgid "Draws separator and makes space on panel"
+#~ msgstr "Рисует разделители и занимает размер"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Меню"
+
+#~ msgid "Applications or custom menu in GMenuModel format."
+#~ msgstr "Меню приложений или любой файл в формате GMenuModel"
+
+#~ msgid "Indicators for CapsLock, NumLock, and ScrollLock keys"
+#~ msgstr "Индикаторы клавиш CapsLock, NumLock и ScrollLock"
+
+#~ msgid "System tray in KDE StatusNotifierItem format"
+#~ msgstr "Системный лоток в формате KDE StatusNotifierItem"
+
+#~ msgid "Quickstart"
+#~ msgstr "Быстрый запуск"
+
+#~ msgid "Container for application launchers."
+#~ msgstr "Содержит значки быстрого запуска"
+
+#~ msgid "Directory menu"
+#~ msgstr "Меню папки"
+
+#~ msgid "This menu shows filesystem hierarchy, started from given dir."
+#~ msgstr "Показывает всю иерарахию папок с корнем в данной папке."
+
+#~ msgid "Clock"
+#~ msgstr "Часы"
+
+#~ msgid "Digital clock with calendar"
+#~ msgstr "Цифровые часы с календарем"
+
+#~ msgid "Tasklist"
+#~ msgstr "Панель задач"
+
+#~ msgid "Shows opened windows."
+#~ msgstr "Показывает открытые приложения"
+
+#~ msgid "Pager"
+#~ msgstr "Переключатель рабочих столов"
+
+#~ msgid "Shows desktops."
+#~ msgstr "Показывает рабочие столы"
+
+#~ msgid "Desktop Number"
+#~ msgstr "Номер рабочего стола"
+
+#~ msgid "Shows desktop name or number. Switch on click."
+#~ msgstr "Показывает имя или номер рабочего стола. Переключает по щелчку мыши"
+
+#~ msgid "Show Desktop"
+#~ msgstr "Показать рабочий стол"
+
+#~ msgid "Can shows desktop and shades window."
+#~ msgstr "Может сворачивать все окна в заголовок или на панель задач."
+
+#~ msgid "SimplePanel"
+#~ msgstr "SimplePanel"
+
+#~ msgid "Copyright (C) 2008-2015"
+#~ msgstr "Copyright (C) 2008-2015"
+
+#~ msgid " Simple desktop panel."
+#~ msgstr "Простая панель для рабочего стола."
+
+#~ msgid "Monitor: All"
+#~ msgstr "Мониторы: Все"
+
+#~ msgid "Monitor: %d"
+#~ msgstr "Монитор: %d"
+
+#~ msgid "Edge: %s"
+#~ msgstr "Сторона: %s"
+
+#~ msgid "Align: %s"
+#~ msgstr "Выравнивание: %s"
+
+#~ msgid "Simple Panel v"
+#~ msgstr "Simple Panel v"
+
+#~ msgid "No file manager is configured."
+#~ msgstr "Файловый менеджер не выбран."
+
+#~ msgid "Application Launch and Task Bar"
+#~ msgstr "Панель задач со значками запуска приложений"
+
+#~ msgid "<b>Mode:</b>"
+#~ msgstr "<b>Тип модуля:</b>"
+
+#~ msgid "Launchers"
+#~ msgstr "Кнопки запуска"
+
+#~ msgid "<b>Launchbar</b>"
+#~ msgstr "<b>Панель запуска приложений</b>"
+
+#~ msgid "Show tooltips"
+#~ msgstr "Показывать подсказки"
+
+#~ msgid "Icons only"
+#~ msgstr "Только значки"
+
+#~ msgid "Flat buttons"
+#~ msgstr "Плоские кнопки"
+
+#~ msgid "Only show windows on the same monitor as the task bar"
+#~ msgstr "Показывать окна только с того же монитора, где находится панель."
+
+#~ msgid "Use mouse wheel"
+#~ msgstr "Использовать колесо мыши"
+
+#~ msgid "Flash when there is any window requiring attention"
+#~ msgstr "Мигать, если окно требует внимания"
+
+#~ msgid "Combine multiple application windows into a single button"
+#~ msgstr "Сгруппировать несколько окон на одной кнопке"
+
+#~ msgid "Maximum width of task button"
+#~ msgstr "Макс. ширина кнопки окна"
+
+#~ msgid "Spacing"
+#~ msgstr "Разделитель"
+
+#~ msgid "<b>Taskbar</b>"
+#~ msgstr "<b>Панель задач</b>"
+
+#~ msgid "Only Application Launch Bar"
+#~ msgstr "Панель запуска приложений"
+
+#~ msgid "Only Task Bar (Window List)"
+#~ msgstr "Панель задач (Список окон)"
+
+#~ msgid "Integrated Application Launch Bar and Task Bar"
+#~ msgstr "Панель задач с кнопками запуска приложений"
+
+#~ msgid "Con_figure"
+#~ msgstr "Нас_троить"
+
+#~ msgid "<b>Connection</b>"
+#~ msgstr "<b>Соединение</b>"
+
+#~ msgid "Status:"
+#~ msgstr "Статус:"
+
+#~ msgid "_Name:"
+#~ msgstr "_Имя:"
+
+#~ msgid "<b>Activity</b>"
+#~ msgstr "<b>Активность</b>"
+
+#~ msgid "Received:"
+#~ msgstr "Принято:"
+
+#~ msgid "Sent:"
+#~ msgstr "Передано:"
+
+#~ msgid "<b>Signal Strength</b>"
+#~ msgstr "<b>Уровень сигнала</b>"
+
+#~ msgid "0%"
+#~ msgstr "0%"
+
+#~ msgid "<b>Internet Protocol (IPv4)</b>"
+#~ msgstr "<b>Интернет-протокол (IPv4)</b>"
+
+#~ msgid "Address:"
+#~ msgstr "Адрес:"
+
+#~ msgid "Destination:"
+#~ msgstr "Куда:"
+
+#~ msgid "Broadcast:"
+#~ msgstr "Широковещательный адрес:"
+
+#~ msgid "Subnet Mask:"
+#~ msgstr "Маска подсети:"
+
+#~ msgid "<b>Internet Protocol (IPv6)</b>"
+#~ msgstr "<b>Интернет-протокол (IPv6)</b>"
+
+#~ msgid "Scope:"
+#~ msgstr "График:"
+
+#~ msgid "<b>Network Device</b>"
+#~ msgstr "<b>Сетевое устройство</b>"
+
+#~ msgid "Type:"
+#~ msgstr "Тип:"
+
+#~ msgid "Support"
+#~ msgstr "Поддержка"
+
+#~ msgid "Dynamic"
+#~ msgstr "Динамически"
+
+#~ msgid "Pixels"
+#~ msgstr "Пикселей"
+
+#~ msgid "Percent"
+#~ msgstr "Процентов"
+
+#~ msgid "% Percent"
+#~ msgstr "% Процентов"
+
+#~ msgid "<b>Position</b>"
+#~ msgstr "<b>Позиция</b>"
+
+#~ msgid "x"
+#~ msgstr "х"
+
+#~ msgid "<b>Size</b>"
+#~ msgstr "<b>Размер</b>"
+
+#~ msgid "Minimize panel when not in use with size: "
+#~ msgstr "Скрывать панель с размером в скрытом состоянии:"
+
+#~ msgid "Autohide"
+#~ msgstr "Автоматическое скрытие панели"
+
+#~ msgid "Make window managers treat the panel as dock"
+#~ msgstr "Пристыковывать панели"
+
+#~ msgid "Reserve space, and not covered by maximized windows"
+#~ msgstr ""
+#~ "Зарезервировать место и не закрывать окнами, развернутыми на весь экран"
+
+#~ msgid "<b>Properties</b>"
+#~ msgstr "<b>Параметры</b>"
+
+#~ msgid "Geometry"
+#~ msgstr "Размещение"
+
+#~ msgid "GTK Window"
+#~ msgstr "Стиль окна GTK"
+
+#~ msgid "Gnome Panel"
+#~ msgstr "Стиль панели GNOME"
+
+#~ msgid "Color"
+#~ msgstr "Цвет"
+
+#~ msgid "Image"
+#~ msgstr "Изображение"
+
+#~ msgid "Select an image file"
+#~ msgstr "Выберите файл изображения"
+
+#~ msgid "<b>Background</b>"
+#~ msgstr "<b>Фон панели</b>"
+
+#~ msgid "<b>Font</b>"
+#~ msgstr "<b>Шрифт</b>"
+
+#~ msgid "Configure plugin..."
+#~ msgstr "Настроить модуль..."
+
+#~ msgid "Remove plugin"
+#~ msgstr "Удалить модуль"
+
+#~ msgid "CPU Usage Monitor"
+#~ msgstr "Монитор загрузки процессора"
+
+#~ msgid "Display CPU usage"
+#~ msgstr "Показывает загрузку процессора"
+
+#~ msgid "Display workspace number, by cmeury@users.sf.net"
+#~ msgstr "Показывает номер рабочего места"
+
+#~ msgid "Application Launch Bar"
+#~ msgstr "Панель запуска приложений"
+
+#~ msgid "Task Bar (Window List)"
+#~ msgstr "Панель задач (Список окон)"
+
+#~ msgid "_Close all windows"
+#~ msgstr "_Закрыть все окна"
+
+#~ msgid "_Raise"
+#~ msgstr "_Развернуть"
+
+#~ msgid "R_estore"
+#~ msgstr "В_осстановить"
+
+#~ msgid "Ma_ximize"
+#~ msgstr "_На весь экран"
+
+#~ msgid "Ico_nify"
+#~ msgstr "_Значком"
+
+#~ msgid "Workspace _%d"
+#~ msgstr "Место %d"
+
+#~ msgid "Workspace %d"
+#~ msgstr "Рабочее место %d"
+
+#~ msgid "_All workspaces"
+#~ msgstr "_Все рабочие места"
+
+#~ msgid "_Move to Workspace"
+#~ msgstr "_Переместить на рабочее место"
+
+#~ msgid "_Close Window"
+#~ msgstr "_Закрыть окно"
+
+#~ msgid "A_dd to Launcher"
+#~ msgstr "_Добавить как кнопку запуска"
+
+#~ msgid "Rem_ove from Launcher"
+#~ msgstr "_Убрать с панели"
+
+#~ msgid "_New Instance"
+#~ msgstr "_Удалить из кнопок запуска"
+
+#~ msgid "Bar with buttons to launch application"
+#~ msgstr "Панель со значками запуска приложений"
+
+#~ msgid ""
+#~ "Taskbar shows all opened windows and allow to iconify them, shade or get "
+#~ "focus"
+#~ msgstr ""
+#~ "Панель задач показывает все открытые окна, позволяя затенять или забирать "
+#~ "фокус"
+
+#~ msgid ""
+#~ "Bar with buttons to launch application and/or show all opened windows"
+#~ msgstr ""
+#~ "Панель задач со значками запуска приложений и всеми открытыми окнами."
+
+#~ msgid "Display digital clock and tooltip"
+#~ msgstr "Показывает цифровые часы и подсказки"
+
+#~ msgid ""
+#~ "Any custom menu in GMenuModel XML format. Also supports setting it as "
+#~ "application menu."
+#~ msgstr "Любое меню в формате XML. Также может быт назначен системным."
+
+#~ msgid "Add a separator to the panel"
+#~ msgstr "Добавить разделитель на панель"
+
+#~ msgid "Sorry, there was no window manager configuration program found."
+#~ msgstr "Не найдено приложения для настройки диспетчера окон."
+
+#~ msgid "Desktop Pager"
+#~ msgstr "Переключатель рабочих мест"
+
+#~ msgid "Simple pager plugin"
+#~ msgstr "Модуль переключателя рабочих мест"
+
+#~ msgid "Spacer"
+#~ msgstr "Пространство"
+
+#~ msgid "Allocate space"
+#~ msgstr "Задать пространство"
+
+#~ msgid "System Tray"
+#~ msgstr "Системный трей"
+
+#~ msgid "System tray"
+#~ msgstr "Системный трей"
+
+#~ msgid "New session is required for this option to take effect"
+#~ msgstr ""
+#~ "Чтобы это изменение вступило в силу, необходимо перезапустить сессию"
+
+#~ msgid "Select Keyboard Model"
+#~ msgstr "Выберите модель клавиатуры"
+
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgid "Id"
+#~ msgstr "ID"
+
+#~ msgid "Select Layout Change Type"
+#~ msgstr "Выберите тип смены раскладки"
+
+#~ msgid "Add Keyboard Layout"
+#~ msgstr "Добавить раскладку клавиатуры"
+
+#~ msgid "Layout"
+#~ msgstr "Раскладка"
+
+#~ msgid "Keyboard Layout Handler"
+#~ msgstr "Обработчик раскладки клавиатуры"
+
+#~ msgid "Keyboard Model"
+#~ msgstr "Модель клавиатуры"
+
+#~ msgid "Keyboard Layouts"
+#~ msgstr "Раскладки клавиатуры"
+
+#~ msgid "Variant"
+#~ msgstr "Вариант"
+
+#~ msgid "Change Layout Option"
+#~ msgstr "Изменение параметров раскладки"
+
+#~ msgid "Advanced setxkbmap Options"
+#~ msgstr "Расширенные настройки setxkbmap "
+
+#~ msgid "Do _not reset existing options"
+#~ msgstr "_Не сбрасывать существующие настройки"
+
+#~ msgid "Keep _system layouts"
+#~ msgstr "_Сохранить системные раскладки"
+
+#~ msgid "Per Window Settings"
+#~ msgstr "Настройка для каждого окна"
+
+#~ msgid "_Remember layout for each window"
+#~ msgstr "_Запоминать раскладку для каждого окна"
+
+#~ msgid "Show Layout as"
+#~ msgstr "Показывать раскладку как"
+
+#~ msgid "Custom Image"
+#~ msgstr "Задать изображение"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Panel Icon Size"
+#~ msgstr "Размер панели значков"
+
+#~ msgid "Handle keyboard layouts"
+#~ msgstr "Обработчик раскладок клавиатуры"
+
+#~ msgid "Left click to iconify all windows.  Middle click to shade them."
+#~ msgstr "Левая кнопка мыши сворачивает все окна. Средняя скрывает все окна."
+
+#~ msgid ""
+#~ "Sends commands to all desktop windows.\n"
+#~ "Supported commands are 1) iconify and 2) shade"
+#~ msgstr ""
+#~ "Посылает команды всем окнам.\n"
+#~ "Возможные команды: 1) сделать значками и 2) скрыть"
+
+#~ msgid "Browse directory tree via menu (Author = PCMan)"
+#~ msgstr "Просмотр каталогов в виде иерархии меню"
+
+#~ msgid "Temperature Monitor"
+#~ msgstr "Монитор температуры"
+
+#~ msgid "Normal color"
+#~ msgstr "Цвет для нормы"
+
+#~ msgid "Warning1 color"
+#~ msgstr "Цвет для предупреждения 1"
+
+#~ msgid "Warning2 color"
+#~ msgstr "Цвет для предупреждения 2"
+
+#~ msgid "Automatic sensor location"
+#~ msgstr "Автоматическое определение сенсора"
+
+#~ msgid "Sensor"
+#~ msgstr "Сенсор"
+
+#~ msgid "Automatic temperature levels"
+#~ msgstr "Автоматический уровень температуры"
+
+#~ msgid "Warning1 temperature"
+#~ msgstr "Температура предупреждения 1"
+
+#~ msgid "Warning2 temperature"
+#~ msgstr "Температура предупреждения 1"
+
+#~ msgid "Display system temperature"
+#~ msgstr "Отображение температуры компьютера"
+
+#~ msgid ""
+#~ "Frequency: %d MHz\n"
+#~ "Governor: %s"
+#~ msgstr ""
+#~ "Частота: %d MHz\n"
+#~ "Профиль частоты: %s"
+
+#~ msgid "CPUFreq frontend"
+#~ msgstr "Модуль CPUFreq"
+
+#~ msgid "Display CPU frequency and allow to change governors and frequency"
+#~ msgstr "Показывает частоту CPU и позволяет менять его профили частоты"
+
+#~ msgid "Volume control"
+#~ msgstr "Громкость: "
+
+#~ msgid "Volume Control"
+#~ msgstr "Управление громкостью"
+
+#~ msgid "Volume"
+#~ msgstr "Громкость"
+
+#~ msgid "Sound settings..."
+#~ msgstr "Настройки звука..."
+
+#~ msgid "ALSA is not connected."
+#~ msgstr "ALSA не подключена."
+
+#~ msgid "Display and control volume for ALSA"
+#~ msgstr "Отображение и управление громкостью для ALSA"
+
+#~ msgid "<Hidden Access Point>"
+#~ msgstr "<Скрытая точка доступа>"
+
+#~ msgid "Wireless Networks not found in range"
+#~ msgstr "Беспроводные сети не найдены"
+
+#~ msgid "Repair"
+#~ msgstr "Восстановить"
+
+#~ msgid "Disable"
+#~ msgstr "Отключить"
+
+#~ msgid "Wireless Connection has no connectivity"
+#~ msgstr "Беспроводное соединение не подключено"
+
+#~ msgid "Network cable is plugged out"
+#~ msgstr "Сетевой кабель не подключен"
+
+#~ msgid "Connection has limited or no connectivity"
+#~ msgstr "Соединение ограничено или не подключено"
+
+#~ msgid "IP Address:"
+#~ msgstr "IP Адрес:"
+
+#~ msgid "Remote IP:"
+#~ msgstr "Удалённый IP:"
+
+#~ msgid "Netmask:"
+#~ msgstr "Маска сети:"
+
+#~ msgid "Activity"
+#~ msgstr "Активность"
+
+#~ msgid "Sent"
+#~ msgstr "Передано"
+
+#~ msgid "Received"
+#~ msgstr "Принято"
+
+#~ msgid "bytes"
+#~ msgstr "байт"
+
+#~ msgid "packets"
+#~ msgstr "пакетов"
+
+#~ msgid "Wireless"
+#~ msgstr "беспроводное"
+
+#~ msgid "Protocol:"
+#~ msgstr "Протокол:"
+
+#~ msgid "HW Address:"
+#~ msgstr "HW Адрес:"
+
+#~ msgid "Manage Networks"
+#~ msgstr "Управление сетями"
+
+#~ msgid "Monitor and Manage networks"
+#~ msgstr "Мониторинг и управление сетями"
+
+#~ msgid "Setting Encryption Key"
+#~ msgstr "Задать ключ шифрования"
+
+#~ msgid ""
+#~ "This wireless network was encrypted.\n"
+#~ "You must have the encryption key."
+#~ msgstr ""
+#~ "Беспроводная сеть зашифрована.\n"
+#~ "Необходим ключ для подключения."
+
+#~ msgid "Encryption Key:"
+#~ msgstr "Ключ шифрования:"
+
+#~ msgid "Network Status Monitor"
+#~ msgstr "Монитор статуса сети"
+
+#~ msgid "Interface to monitor"
+#~ msgstr "Интерфейс для мониторинга"
+
+#~ msgid "Config tool"
+#~ msgstr "Утилита настройки"
+
+#~ msgid "Monitor network status"
+#~ msgstr "Мониторинг статуса сети"
+
+#~ msgid "Connection Properties"
+#~ msgstr "Параметры соединения"
+
+#~ msgid "Connection Properties: %s"
+#~ msgstr "Параметры соединения: %s"
+
+#~ msgid "%lu packet"
+#~ msgid_plural "%lu packets"
+#~ msgstr[0] "%lu пакет"
+#~ msgstr[1] "%lu пакетов"
+#~ msgstr[2] "%lu пакетов"
+
+#~ msgid ""
+#~ "There was an error displaying help:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Ошибка вывода помощи:\n"
+#~ "%s"
+
+#~ msgid "Network Connection: %s"
+#~ msgstr "Соединение: %s"
+
+#~ msgid "Network Connection"
+#~ msgstr "Соединение"
+
+#~ msgid "Interface"
+#~ msgstr "Интерфейс"
+
+#~ msgid "The current interface the icon is monitoring."
+#~ msgstr "Значок активного соединения."
+
+#~ msgid "Orientation"
+#~ msgstr "Ориентация"
+
+#~ msgid "The orientation of the tray."
+#~ msgstr "Ориентация трея"
+
+#~ msgid "Tooltips Enabled"
+#~ msgstr "Подсказки включены"
+
+#~ msgid "Whether or not the icon's tooltips are enabled."
+#~ msgstr "Включены ли подсказки значков"
+
+#~ msgid "Show Signal"
+#~ msgstr "Показать сигнал"
+
+#~ msgid "Whether or not the signal strength should be displayed."
+#~ msgstr "Включен ли показ уровня сигнала"
+
+#~ msgid ""
+#~ "Please contact your system administrator to resolve the following "
+#~ "problem:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Обратитесь к системному администратору для решения проблемы:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "The interface name"
+#~ msgstr "Имя интерфейса"
+
+#~ msgid "State"
+#~ msgstr "Состояние"
+
+#~ msgid "The interface state"
+#~ msgstr "Состояние интерфейса"
+
+#~ msgid "Stats"
+#~ msgstr "Статистика"
+
+#~ msgid "The interface packets/bytes statistics"
+#~ msgstr "Статистика интерфейса по пакетам/байтам"
+
+#~ msgid "Whether the interface is a wireless interface"
+#~ msgstr "Если интерфейс беспроводной интерфейс"
+
+#~ msgid "Signal"
+#~ msgstr "Показать сигнал"
+
+#~ msgid "Wireless signal strength percentage"
+#~ msgstr "Мощность беспроводного сигнала в процентах"
+
+#~ msgid "The current error condition"
+#~ msgstr "Текущее состояние ошибки"
+
+#~ msgid "Unable to open socket: %s"
+#~ msgstr "Не могу открыть сокет: %s"
+
+#~ msgid "SIOCGIFFLAGS error: %s"
+#~ msgstr "Ошибка SIOCGIFFLAGS: %s"
+
+#~ msgid "AMPR NET/ROM"
+#~ msgstr "AMPR NET/ROM"
+
+#~ msgid "Ethernet"
+#~ msgstr "Ethernet"
+
+#~ msgid "AMPR AX.25"
+#~ msgstr "AMPR AX.25"
+
+#~ msgid "16/4 Mbps Token Ring"
+#~ msgstr "16/4 Mbps Token Ring"
+
+#~ msgid "ARCnet"
+#~ msgstr "ARCnet"
+
+#~ msgid "Frame Relay DLCI"
+#~ msgstr "Frame Relay DLCI"
+
+#~ msgid "Metricom Starmode IP"
+#~ msgstr "Metricom Starmode IP"
+
+#~ msgid "Serial Line IP"
+#~ msgstr "Serial Line IP"
+
+#~ msgid "VJ Serial Line IP"
+#~ msgstr "VJ Serial Line IP"
+
+#~ msgid "6-bit Serial Line IP"
+#~ msgstr "6-bit Serial Line IP"
+
+#~ msgid "VJ 6-bit Serial Line IP"
+#~ msgstr "VJ 6-bit Serial Line IP"
+
+#~ msgid "Adaptive Serial Line IP"
+#~ msgstr "Adaptive Serial Line IP"
+
+#~ msgid "AMPR ROSE"
+#~ msgstr "AMPR ROSE"
+
+#~ msgid "Generic X.25"
+#~ msgstr "Generic X.25"
+
+#~ msgid "Point-to-Point Protocol"
+#~ msgstr "Point-to-Point Protocol"
+
+#~ msgid "(Cisco)-HDLC"
+#~ msgstr "(Cisco)-HDLC"
+
+#~ msgid "LAPB"
+#~ msgstr "LAPB"
+
+#~ msgid "IPIP Tunnel"
+#~ msgstr "IPIP Tunnel"
+
+#~ msgid "Frame Relay Access Device"
+#~ msgstr "Frame Relay Access Device"
+
+#~ msgid "Local Loopback"
+#~ msgstr "Local Loopback"
+
+#~ msgid "Fiber Distributed Data Interface"
+#~ msgstr "Fiber Distributed Data Interface"
+
+#~ msgid "IPv6-in-IPv4"
+#~ msgstr "IPv6-в-IPv4"
+
+#~ msgid "HIPPI"
+#~ msgstr "HIPPI"
+
+#~ msgid "Ash"
+#~ msgstr "Ash"
+
+#~ msgid "Econet"
+#~ msgstr "Econet"
+
+#~ msgid "IrLAP"
+#~ msgstr "IrLAP"
+
+#~ msgid "SIOCGIFCONF error: %s"
+#~ msgstr "Ошибка SIOCGIFCONF: %s"
+
+#~ msgid "No network devices found"
+#~ msgstr "Не найдено сетевых устройств"
+
+#~ msgid "Cannot open /proc/net/dev: %s"
+#~ msgstr "Не могу открыть /proc/net/dev: %s"
+
+#~ msgid "Could not parse /proc/net/dev. No data."
+#~ msgstr "Невозможно обработать /proc/net/dev. Нет данных."
+
+#~ msgid "Could not parse /proc/net/dev. Unknown format."
+#~ msgstr "Невозможно обработать /proc/net/dev. Неизвестный формат."
+
+#~ msgid "Could not parse interface name from '%s'"
+#~ msgstr "Невозможно обработать имя интерфейса из '%s'"
+
+#~ msgid ""
+#~ "Could not parse interface statistics from '%s'. prx_idx = %d; ptx_idx = "
+#~ "%d; brx_idx = %d; btx_idx = %d;"
+#~ msgstr ""
+#~ "Невозможно обработать статистику интерфейса из '%s'. prx_idx = %d; "
+#~ "ptx_idx = %d; brx_idx = %d; btx_idx = %d;"
+
+#~ msgid "Could not parse /proc/net/wireless. No data."
+#~ msgstr "Невозможно обработать /proc/net/wireless. Нет данных."
+
+#~ msgid "Could not parse /proc/net/wireless. Unknown format."
+#~ msgstr "Невозможно обработать /proc/net/wireless. Неизвестный формат."
+
+#~ msgid "Could not parse wireless details from '%s'. link_idx = %d;"
+#~ msgstr ""
+#~ "Невозможно получить детали беспроводного соединения из '%s'. link_idx = "
+#~ "%d;"
+
+#~ msgid "Could not connect to interface, '%s'"
+#~ msgstr "Не могу подключить интерфейс, '%s'"
+
+#~ msgid "Could not send ioctl to interface, '%s'"
+#~ msgstr "Не могу передать ioctl на интерфейс, '%s'"
+
+#~ msgid "Could not parse command line '%s': %s"
+#~ msgstr "Не могу обработать командную строку '%s': %s"
+
+#~ msgid "Could not parse 'netstat' output. Unknown format"
+#~ msgstr "Не могу обработать вывод 'netstat'. Неизвестный формат."
+
+#~ msgid "Disconnected"
+#~ msgstr "Разъединено"
+
+#~ msgid "Idle"
+#~ msgstr "Ожидание"
+
+#~ msgid "Sending"
+#~ msgstr "Отправлено"
+
+#~ msgid "Receiving"
+#~ msgstr "Принято"
+
+#~ msgid "Sending/Receiving"
+#~ msgstr "Прием/Передача"
+
+#~ msgid "Battery: %d%% charged, %d:%02d until full"
+#~ msgstr "Батарея: %d%% заряда, %d:%02d до полной зарядки"
+
+#~ msgid "Battery: %d%% charged, %d:%02d left"
+#~ msgstr "Батарея: %d%% заряда, %d:%02d осталось"
+
+#~ msgid "Battery: %d%% charged"
+#~ msgstr "Батарея: %d%% заряда"
+
+#~ msgid ""
+#~ "\n"
+#~ "%sEnergy full design:\t\t%5d mWh"
+#~ msgstr ""
+#~ "\n"
+#~ "%sЗаводская емкость:\t\t%5d мВт/ч"
+
+#~ msgid ""
+#~ "\n"
+#~ "%sEnergy full:\t\t\t%5d mWh"
+#~ msgstr ""
+#~ "\n"
+#~ "%sПолная емкость:\t\t\t%5d мВт/ч"
+
+#~ msgid ""
+#~ "\n"
+#~ "%sEnergy now:\t\t\t%5d mWh"
+#~ msgstr ""
+#~ "\n"
+#~ "%sЗаряд сейчас:\t\t\t%5d мВт/ч"
+
+#~ msgid ""
+#~ "\n"
+#~ "%sPower now:\t\t\t%5d mW"
+#~ msgstr ""
+#~ "\n"
+#~ "%sМощность сейчас:\t\t\t%5d мВ"
+
+#~ msgid ""
+#~ "\n"
+#~ "%sCharge full design:\t%5d mAh"
+#~ msgstr ""
+#~ "\n"
+#~ "%sЗаводская емкость:\t\t%5d мАч"
+
+#~ msgid ""
+#~ "\n"
+#~ "%sCharge full:\t\t\t%5d mAh"
+#~ msgstr ""
+#~ "\n"
+#~ "%sПолная емкость:\t\t\t%5d мАч"
+
+#~ msgid ""
+#~ "\n"
+#~ "%sCharge now:\t\t\t%5d mAh"
+#~ msgstr ""
+#~ "\n"
+#~ "%sЗаряд сейчас:\t\t\t%5d мАч"
+
+#~ msgid ""
+#~ "\n"
+#~ "%sCurrent now:\t\t\t%5d mA"
+#~ msgstr ""
+#~ "\n"
+#~ "%sТок сейчас:\t\t\t%5d мА"
+
+#~ msgid ""
+#~ "\n"
+#~ "%sCurrent Voltage:\t\t%.3lf V"
+#~ msgstr ""
+#~ "\n"
+#~ "%sНапряжение:\t\t%.3lf В"
+
+#~ msgid "No batteries found"
+#~ msgstr "Батареи не обнаружено"
+
+#~ msgid "%d%% (%d:%02d remaining)"
+#~ msgstr "%d%% (%d:%02d осталось)"
+
+#~ msgid "Battery Monitor"
+#~ msgstr "Монитор батареи"
+
+#~ msgid "Battery name"
+#~ msgstr "Системное имя батареи"
+
+#~ msgid "Hide if there is no battery"
+#~ msgstr "Спрятать при отсутствии батареи"
+
+#~ msgid "Alarm command"
+#~ msgstr "Команда будильника"
+
+#~ msgid "Alarm time (minutes left)"
+#~ msgstr "Время будильника (минут осталось)"
+
+#~ msgid "Settings command"
+#~ msgstr "Команда настроек электропитания"
+
+#~ msgid "Show remaining time on panel"
+#~ msgstr "Показывать оставшееся время на панели"
+
+#~ msgid "Show percentage on panel"
+#~ msgstr "Показывать процент заряда на панели"
+
+#~ msgid "Show Extended Information"
+#~ msgstr "Показывать дополнительную информацию"
+
+#~ msgid "Display battery status using ACPI"
+#~ msgstr "Показать уровень зарядки, используя ACPI"
+
+#~ msgid "Show ScrollLock"
+#~ msgstr "Показать ScrollLock"
+
+#~ msgid "No Indicators"
+#~ msgstr "Без индикаторов"
+
+#~ msgid "Indicator applets"
+#~ msgstr "Апллеты индикаторов"
+
+#~ msgid "Indicator Applications"
+#~ msgstr "Индикатор приложений"
+
+#~ msgid "Clock Indicator"
+#~ msgstr "Индикатор часов"
+
+#~ msgid "Messaging Menu"
+#~ msgstr "Сообщения"
+
+#~ msgid "Network Menu"
+#~ msgstr "Сеть"
+
+#~ msgid "Session Menu"
+#~ msgstr "Сессия"
+
+# Звук
+#~ msgid "Sound Menu"
+#~ msgstr "Создать меню"
+
+#~ msgid "Applications menus"
+#~ msgstr "Меню приложений"
+
+#~ msgid "Add indicator applets to the panel"
+#~ msgstr "Добавить апплеты индикаторов на панель"
+
+#~ msgid "CPU usage: %.2f%%"
+#~ msgstr "Загрузка ЦП: %.2f%%"
+
+#~ msgid "RAM usage: %.1fMB (%.2f%%)"
+#~ msgstr "Использовано ОЗУ: %.1fМб (%.2f%%)"
+
+#~ msgid "Resource monitors"
+#~ msgstr "Мониторинг ресурсов"
+
+#~ msgid "CPU color"
+#~ msgstr "Цвет ЦПУ"
+
+#~ msgid "Display RAM usage"
+#~ msgstr "Показывать использование памяти"
+
+#~ msgid "RAM color"
+#~ msgstr "Цвет ОЗУ"
+
+#~ msgid "Action when clicked (default: lxtask)"
+#~ msgstr "Действие по щелчку (по умолчанию: отобразить календарь)"
+
+#~ msgid "Display monitors (CPU, RAM)"
+#~ msgstr "Отображение индикаторов (ЦПУ, ОЗУ)"
+
+#~ msgid "[N/A]"
+#~ msgstr "[N/A]"
+
+#~ msgid "Enter New Location"
+#~ msgstr "Выберите новое место"
+
+#~ msgid "_New Location:"
+#~ msgstr "_Новое место:"
+
+#~ msgid ""
+#~ "Enter the:\n"
+#~ "- city, or\n"
+#~ "- city and state/country, or\n"
+#~ "- postal code\n"
+#~ "for which to retrieve the weather forecast."
+#~ msgstr ""
+#~ "Введите:\n"
+#~ "- город, или\n"
+#~ "- город и страну (или штат США), или\n"
+#~ "- почтовый код США\n"
+#~ "для которого будет получен прогноз."
+
+#~ msgid "You must specify a location."
+#~ msgstr "Вы должны выбрать место."
+
+#~ msgid "Location '%s' not found!"
+#~ msgstr "Место '%s' не найдено!"
+
+#~ msgid "Weather Preferences"
+#~ msgstr "Настройки модуля погоды"
+
+#~ msgid "Current Location"
+#~ msgstr "Текущее место"
+
+#~ msgid "None configured"
+#~ msgstr "Не настроено"
+
+#~ msgid "_Set"
+#~ msgstr "_Установить"
+
+#~ msgid "Display"
+#~ msgstr "Показ"
+
+#~ msgid "Name:"
+#~ msgstr "_Имя:"
+
+#~ msgid "Units:"
+#~ msgstr "Единицы измерения:"
+
+#~ msgid "_Metric (°C)"
+#~ msgstr "_Метрические (°C)"
+
+#~ msgid "_English (°F)"
+#~ msgstr "_Английские (°F)"
+
+#~ msgid "Forecast"
+#~ msgstr "Прогноз"
+
+#~ msgid "Updates:"
+#~ msgstr "Обновление:"
+
+#~ msgid "Ma_nual"
+#~ msgstr "_Ручное"
+
+#~ msgid "_Automatic, every"
+#~ msgstr "А_втоматическое, каждые"
+
+#~ msgid "Source:"
+#~ msgstr "Источник"
+
+#~ msgid "C_hange"
+#~ msgstr "_Сменить"
+
+#~ msgid "Current Conditions for %s"
+#~ msgstr "Погода сейчас в %s"
+
+#~ msgid "_Refresh"
+#~ msgstr "_Обновить"
+
+#~ msgid "Location:"
+#~ msgstr "Место"
+
+#~ msgid "Last updated:"
+#~ msgstr "Обновлено:"
+
+#~ msgid "Feels like:"
+#~ msgstr "Ощущуается как:"
+
+#~ msgid "Humidity:"
+#~ msgstr "Влажность:"
+
+#~ msgid "Visibility:"
+#~ msgstr "Видимость:"
+
+#~ msgid "Sunrise:"
+#~ msgstr "Восход:"
+
+#~ msgid "Sunset:"
+#~ msgstr "Закат:"
+
+#~ msgid "Forecast for %s unavailable."
+#~ msgstr "Прогноз для %s недоступен."
+
+#~ msgid "Location not set."
+#~ msgstr "Место не задано."
+
+#~ msgid "Searching for '%s'..."
+#~ msgstr "Поиск места '%s'..."
+
+#~ msgid "Location matches for '%s'"
+#~ msgstr "Найденные места для '%s'"
+
+#~ msgid "City"
+#~ msgstr "Город"
+
+#~ msgid "Country"
+#~ msgstr "Страна"
+
+#~ msgid "Currently in "
+#~ msgstr "Сейчас в "
+
+#~ msgid "Today: "
+#~ msgstr "Сегодня:"
+
+#~ msgid "Tomorrow: "
+#~ msgstr "Завтра:"
+
+#~ msgid "Weather Plugin"
+#~ msgstr "Модуль погоды"
+
+#~ msgid "Show weather conditions for a location."
+#~ msgstr "Показывает интернет-погоду для выбранного места."
+
+#~ msgid "Action when clicked (default: display calendar)"
+#~ msgstr "Действие по щелчку (по умолчанию: отобразить календарь)"
+
+#~ msgid "Tooltip only"
+#~ msgstr "Только подсказки"
+
+#~ msgid "Center text"
+#~ msgstr "Текст по центру"
+
+#~ msgid "Custom color"
+#~ msgstr "Выбранный цвет"
+
+#~ msgid "Normal"
+#~ msgstr "Нормально"
+
+#~ msgid "Logout command is not set"
+#~ msgstr "Команда выхода из сеанса не задана"
+
+#~ msgid "Shutdown command is not set"
+#~ msgstr "Команда выключения не задана"
+
+#~ msgid "\"%s\" Settings"
+#~ msgstr "Настроить \"%s\""
+
+#~ msgid "Remove \"%s\" From Panel"
+#~ msgstr "Убрать «%s» с панели"
+
+#~ msgid "Add / Remove Panel Items"
+#~ msgstr "Добавить/убрать элементы панели"
+
+#~ msgid "Panel Settings"
+#~ msgstr "Настройки панели"
+
+#~ msgid "Create New Panel"
+#~ msgstr "Создать новую панель"
+
+#~ msgid "Delete This Panel"
+#~ msgstr "Удалить эту панель"
+
+#~ msgid "Add to desktop"
+#~ msgstr "Добавить на Рабочий стол"
+
+#~ msgid "Properties"
+#~ msgstr "Свойства"
+
+#~ msgid "Logout"
+#~ msgstr "Завершить cеанс"
+
+#~ msgid "Menu"
+#~ msgstr "Меню приложений"
+
+#~ msgid "Caption"
+#~ msgstr "Заголовок"
+
+#~ msgid "Application Menu"
+#~ msgstr "Главное меню (программы)"
+
+#~ msgid "Mute"
+#~ msgstr "Выкл."
+
+#~ msgid "Background color"
+#~ msgstr "Цвет фона"
+
+#~ msgid "Charging color 1"
+#~ msgstr "Цвет заряда 1"
+
+#~ msgid "Charging color 2"
+#~ msgstr "Цвет заряда 2"
+
+#~ msgid "Discharging color 1"
+#~ msgstr "Цвет разрядки 1"
+
+#~ msgid "Discharging color 2"
+#~ msgstr "Цвет разрядки 2"
+
+#~ msgid "Border width"
+#~ msgstr "Толщина рамки"
+
+#~ msgid "Restart"
+#~ msgstr "Перезапустить"
+
+#~ msgid "Add plugin to panel"
+#~ msgstr "Добавить модуль на панель"
+
+#~ msgid "LXPanel"
+#~ msgstr "LXPanel"
+
+#, fuzzy
+#~ msgid "Copyright (C) 2008-2013"
+#~ msgstr "Copyright (C) 2008-2011"
+
+#~ msgid "Desktop panel for LXDE project"
+#~ msgstr "Панель рабочего стола из состава LXDE"
+
+#~ msgid "Panel"
+#~ msgstr "Панель"
+
+#~ msgid "lxpanel %s - lightweight GTK2+ panel for UNIX desktops\n"
+#~ msgstr "LXPanel %s - лёгковесная GTK2+ панель для UNIX-десктопов\n"
+
+#~ msgid "Command line options:\n"
+#~ msgstr "Параметры командной строки:\n"
+
+#~ msgid " --help      -- print this help and exit\n"
+#~ msgstr " --help      --показать помощь и выйти\n"
+
+#~ msgid " --version   -- print version and exit\n"
+#~ msgstr " --version   -- показать версию и выйти\n"
+
+#~ msgid " --log <number> -- set log level 0-5. 0 - none 5 - chatty\n"
+#~ msgstr ""
+#~ " --log <число> -- задать уровень логирования 0-5. 0 - не вести логов, 5 - "
+#~ "подробно\n"
+
+#~ msgid " --profile name -- use specified profile\n"
+#~ msgstr " --profile name - использовать заданный профиль\n"
+
+#~ msgid " -h  -- same as --help\n"
+#~ msgstr " -h  -- то же, что и --help\n"
+
+#~ msgid " -p  -- same as --profile\n"
+#~ msgstr " -p  -- то же, что и --profile\n"
+
+#~ msgid " -v  -- same as --version\n"
+#~ msgstr " -v  -- то же, что и --version\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Visit http://lxde.org/ for detail.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Более подробная информация на http://lxde.org/\n"
+#~ "\n"
+
+#~ msgid "Enter the command you want to execute:"
+#~ msgstr "Введите команду для выполнения:"
+
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "Err"
+#~ msgstr "Ошибка"
+
+#~ msgid "Warn"
+#~ msgstr "Предупр."
+
+#~ msgid "Info"
+#~ msgstr "Информ."
+
+#~ msgid "Panel Preferences"
+#~ msgstr "Настройки панели"
+
+#~ msgid "System theme"
+#~ msgstr "Из системной темы"
+
+#~ msgid "Solid color (with opacity)"
+#~ msgstr "Задать цвет (прозрачность)"
+
+#~ msgid "Panel Applets"
+#~ msgstr "Апплеты панели"
+
+#~ msgid "Logout Command:"
+#~ msgstr "Команда для выхода из системы:"
+
+#~ msgid "Terminal Emulator:"
+#~ msgstr "Эмулятор терминала:"
+
+#~ msgid "File Manager:"
+#~ msgstr "Файловый менеджер:"
+
+#~ msgid "<b>Set Preferred Applications</b>"
+#~ msgstr "<b>Установить предпочитаемые приложения</b>"
+
+#~ msgid "Minimize panel when not in use"
+#~ msgstr "Скрыть панель, если не используется"
+
+#~ msgid "Size when minimized"
+#~ msgstr "Размер скрытой панели"
+
+#~ msgid "pixels"
+#~ msgstr "пикселей"
+
+#~ msgid "<b>Automatic hiding</b>"
+#~ msgstr "<b>Автоскрытие</b>"
+
+#~ msgid "Log level"
+#~ msgstr "Уровень слежения"
+
+#~ msgid "<b>Log level</b>"
+#~ msgstr "<b>Уровень слежения</b>"
+
+#~ msgid "Advanced"
+#~ msgstr "Дополнительно"
+
+#~ msgid "Display Image and Tooltip"
+#~ msgstr "Показывает цифровые часы и подсказки"
+
+#~ msgid "Format codes: man 3 strftime; \\%n for line break"
+#~ msgstr "Формат кода: man 3 strftime; \\%n для разрыва строки"
+
+#~ msgid "Warning1"
+#~ msgstr "Порог 1"
+
+#~ msgid "Warning2"
+#~ msgstr "Порог 2"
+
+#~ msgid "Warning1 Temperature"
+#~ msgstr "Температурный порог 1"
+
+#~ msgid "Warning2 Temperature"
+#~ msgstr "Температурный порог 2"
+
+#~ msgid ""
+#~ "Error, you need to install an application to configure the sound "
+#~ "(pavucontol, alsamixer ...)"
+#~ msgstr ""
+#~ "У вас не установлены приложения управления звуком (pavucontrol, alsamixer "
+#~ "и т. п.)"
+
+#~ msgid "Failed to launch time configuration tool: %s"
+#~ msgstr "Не удалось запустить утилиту настройки часов: %s"
+
+#, fuzzy
+#~ msgid "Preferences"
+#~ msgstr "Настройки панели"
+
+#~ msgid "WNCKPager"
+#~ msgstr "WNCKPager"
+
+#~ msgid "<b>Icon</b>"
+#~ msgstr "<b>Значки</b>"
+
+#~ msgid "Configure Keyboard Layout Switcher"
+#~ msgstr "Настройка индикатора раскладок клавиатуры"
+
+#~ msgid "image"
+#~ msgstr "флаг"
+
+#~ msgid "text"
+#~ msgstr "текст"
+
+#~ msgid "Per application settings"
+#~ msgstr "Настройки для приложений"
+
+#~ msgid "Default layout:"
+#~ msgstr "Раскладка по-умолчанию:"
+
+#~ msgid "Available Applications"
+#~ msgstr "Доступные приложения"
+
+#~ msgid "Left\t"
+#~ msgstr "Слева\t"
+
+#~ msgid "Top\t"
+#~ msgstr "Сверху\t"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Невозможно найти файл: %s"
+
+#~ msgid ""
+#~ "Allows you to switch the keyboard layout and\n"
+#~ "displays the currently selected layout."
+#~ msgstr ""
+#~ "Позволяет переключать раскладку клавиатуры\n"
+#~ "и отображать текущую раскладку на панели."
+
+#~ msgid "Other plugins available here"
+#~ msgstr "Остальные плагины доступны здесь"
+
+#~ msgid "Kayboard Layout switcher"
+#~ msgstr "Переключатель раскладок клавиатуры"
+
+#~ msgid "Desktop No / Workspace Name"
+#~ msgstr "Номер и имя рабочего места"
+
+#~ msgid "Old KDE/GNOME Tray"
+#~ msgstr "Старый KDE/GNOME-трей"
+
+#~ msgid ""
+#~ "Dynamic\n"
+#~ "Pixels\n"
+#~ "% Percent"
+#~ msgstr ""
+#~ "динамически\n"
+#~ "пикселов\n"
+#~ "% процентов"
+
+#~ msgid "Enable Image:"
+#~ msgstr "Включить фон:"
+
+#~ msgid "Enable Transparency"
+#~ msgstr "Включить прозрачность"
+
+#~ msgid ""
+#~ "Left\n"
+#~ "Center\n"
+#~ "Right"
+#~ msgstr ""
+#~ "Слева\n"
+#~ "По центру\n"
+#~ "Справа"
+
+#~ msgid ""
+#~ "Left\n"
+#~ "Right\n"
+#~ "Top\n"
+#~ "Bottom"
+#~ msgstr ""
+#~ "Слева\n"
+#~ "Справа\n"
+#~ "Сверху\n"
+#~ "Снизу"
+
+#~ msgid "Where to put the panel?"
+#~ msgstr "Где разместить панель?"
+
+#~ msgid " --configure -- launch configuration utility\n"
+#~ msgstr " --configure — запустить утилиту настройки\n"
+
+#~ msgid " -C  -- same as --configure\n"
+#~ msgstr " -C  -- то же, что --configure\n"
+
+#~ msgid "Add Button"
+#~ msgstr "Добавить кнопку"
+
+#~ msgid "Button Properties"
+#~ msgstr "Свойства кнопки"
+
+#~ msgid "Remove Button"
+#~ msgstr "Удалить кнопку"
+
+#~ msgid "Buttons"
+#~ msgstr "Кнопки"
+
+#~ msgid "Accept SkipPager"
+#~ msgstr "Accept SkipPager"
+
+#~ msgid "Show Iconified windows"
+#~ msgstr "Показывать окна значками"
+
+#~ msgid "Show mapped windows"
+#~ msgstr "Показать окна схематично"
+
+#~ msgid "Action"
+#~ msgstr "Действие"
+
+#~ msgid "Battery: %d%% charged, %s"
+#~ msgstr "Батарея: %d%% заряда, %s"
+
+#~ msgid "charging finished"
+#~ msgstr "Зарядка батареи закончена"
+
+#~ msgid "charging"
+#~ msgstr "Заряжается"
+
+#~ msgid "Audio & Video"
+#~ msgstr "Мультимедиа"
+
+#~ msgid "System Tools"
+#~ msgstr "Система"
+
+#~ msgid "Accessories"
+#~ msgstr "Утилиты"
