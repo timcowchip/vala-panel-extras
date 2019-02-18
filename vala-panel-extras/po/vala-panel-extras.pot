@@ -1,0 +1,647 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-23 18:29+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../lib/application.vala:11
+msgid "Print version and exit"
+msgstr ""
+
+#: ../lib/application.vala:101
+msgid "%s - Version %s\n"
+msgstr ""
+
+#: ../lib/application.vala:151
+msgid "Vala Panel Extras"
+msgstr ""
+
+#: ../lib/application.vala:152
+msgid "Status Notifier Items for Vala Panel"
+msgstr ""
+
+#: ../lib/application.vala:154
+msgid "Vala Panel Website"
+msgstr ""
+
+#: ../lib/application.vala:156
+msgid "Replace this string by your names, one name per line."
+msgstr ""
+
+#: ../lib/configurator.vala:23
+msgid "_Close"
+msgstr ""
+
+#: ../lib/configurator.vala:68 ../lib/configurator.vala:106
+msgid "Select a file"
+msgstr ""
+
+#: ../lib/configurator.vala:98
+msgid "_Browse"
+msgstr ""
+
+#: ../lib/configurator.vala:106
+msgid "Select a directory"
+msgstr ""
+
+#: ../lib/configurator.vala:109
+msgid "_Cancel"
+msgstr ""
+
+#: ../lib/configurator.vala:110
+msgid "_OK"
+msgstr ""
+
+#: ../lib/menuserializer.vala:167
+msgctxt "default text direction"
+msgid "ltr"
+msgstr ""
+
+#: ../lib/snitemproxy.vala:118
+msgid "_Preferences..."
+msgstr ""
+
+#: ../lib/snitemproxy.vala:122
+msgid "_About..."
+msgstr ""
+
+#: ../lib/snitemproxy.vala:126
+msgid "_Quit"
+msgstr ""
+
+#: ../applets/batt/battery.vala:61 ../applets/batt/battery.vala:115
+msgid "Battery is discharging. %3.0lf%% remaining."
+msgstr ""
+
+#: ../applets/batt/battery.vala:62 ../applets/batt/battery.vala:116
+msgid "%02lli:%02lli remaining to empty."
+msgstr ""
+
+#: ../applets/batt/battery.vala:65 ../applets/batt/battery.vala:122
+msgid "Battery is charging. %3.0lf%% charged."
+msgstr ""
+
+#: ../applets/batt/battery.vala:66 ../applets/batt/battery.vala:123
+msgid "%02lli:%02lli remaining to full."
+msgstr ""
+
+#: ../applets/batt/battery.vala:69 ../applets/batt/battery.vala:128
+msgid "Battery is charged."
+msgstr ""
+
+#: ../applets/batt/battery.vala:70 ../applets/batt/battery.vala:73
+#: ../applets/batt/battery.vala:129 ../applets/batt/battery.vala:134
+msgid "Battery percentage: %3.0lf%%."
+msgstr ""
+
+#: ../applets/batt/battery.vala:85
+msgid "Battery is low!"
+msgstr ""
+
+#: ../applets/batt/battery.vala:88
+msgid "Battery is very low!"
+msgstr ""
+
+#: ../applets/batt/battery.vala:92
+msgid "Battery is critical!"
+msgstr ""
+
+#: ../applets/batt/battery.vala:266 ../applets/batt/battery.vala:285
+msgid "Vala Panel Battery Applet"
+msgstr ""
+
+#: ../applets/batt/battery.vala:268
+msgid "Use notifications"
+msgstr ""
+
+#: ../applets/batt/battery.vala:269
+msgid "Show percentage"
+msgstr ""
+
+#: ../applets/batt/battery.vala:270
+msgid "Show time remaining"
+msgstr ""
+
+#: ../applets/batt/battery.vala:271
+msgid "Power manager command"
+msgstr ""
+
+#: ../applets/batt/battery.vala:272
+msgid "Display device path"
+msgstr ""
+
+#: ../applets/batt/battery.vala:280
+msgid "Battery Applet"
+msgstr ""
+
+#: ../applets/batt/battery.vala:286
+msgid "Simple UPower based battery indicator."
+msgstr ""
+
+#: ../applets/batt/upower-iface.vala:34
+msgid "Unknown"
+msgstr ""
+
+#: ../applets/batt/upower-iface.vala:36
+msgid "Line Power"
+msgstr ""
+
+#: ../applets/batt/upower-iface.vala:38
+msgid "Battery"
+msgstr ""
+
+#: ../applets/batt/upower-iface.vala:40
+msgid "UPS"
+msgstr ""
+
+#: ../applets/batt/upower-iface.vala:42
+msgid "Monitor"
+msgstr ""
+
+#: ../applets/batt/upower-iface.vala:44
+msgid "Mouse"
+msgstr ""
+
+#: ../applets/batt/upower-iface.vala:46
+msgid "Keyboard"
+msgstr ""
+
+#: ../applets/batt/upower-iface.vala:48
+msgid "PDA"
+msgstr ""
+
+#: ../applets/batt/upower-iface.vala:50
+msgid "Phone"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:36 ../applets/weather/weather.vala:114
+msgid "No network connection"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:37 ../applets/weather/weather.vala:115
+msgid "or no location."
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:66
+msgid "Network Statistics"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:67
+msgid ""
+"Up: %s\n"
+"Down: %s"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:73 ../applets/gtop/gtop.vala:295
+msgid "Vala Panel Netload Applet"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:75
+msgid "Select network interface"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:76
+msgid "Reload network interfaces"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:111
+msgid "b"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:112 ../applets/gtop/gtop.vala:113
+msgid "B"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:120
+msgid "kb"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:121
+msgid "kB"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:122
+msgid "KiB"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:129
+msgid "Mb"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:130
+msgid "MB"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:131
+msgid "MiB"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:138
+msgid "Gb"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:139
+msgid "GB"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:140
+msgid "GiB"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:147
+msgid "Tb"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:148
+msgid "TB"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:149
+msgid "TiB"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:156
+msgid "Pb"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:157
+msgid "PB"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:158
+msgid "PiB"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:259
+msgid "All"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:271
+msgid "Netload Applet"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:278
+msgid "Interfaces"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:285
+msgid "Down"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:289
+msgid "Up"
+msgstr ""
+
+#: ../applets/gtop/gtop.vala:296
+msgid "Simple LibGTop based network indicator."
+msgstr ""
+
+#: ../applets/volume/volume.vala:67
+msgid "ALSA (or pulseaudio) had a problem."
+msgstr ""
+
+#: ../applets/volume/volume.vala:68
+msgid " Please check the volume-applet logs."
+msgstr ""
+
+#: ../applets/volume/volume.vala:242
+msgid "ALSA is not connected"
+msgstr ""
+
+#: ../applets/volume/volume.vala:379 ../applets/volume/volume.vala:437
+msgid "Vala Panel Volume Applet"
+msgstr ""
+
+#: ../applets/volume/volume.vala:381
+msgid "ALSA Card"
+msgstr ""
+
+#: ../applets/volume/volume.vala:382
+msgid "ALSA Channel"
+msgstr ""
+
+#: ../applets/volume/volume.vala:383
+msgid "Mixer launch command"
+msgstr ""
+
+#: ../applets/volume/volume.vala:390
+msgid "Volume Applet"
+msgstr ""
+
+#: ../applets/volume/volume.vala:397
+msgid "Volume _Control..."
+msgstr ""
+
+#: ../applets/volume/volume.vala:407
+msgid "_Mute"
+msgstr ""
+
+#: ../applets/volume/volume.vala:417
+msgid "Volume Scale"
+msgstr ""
+
+#: ../applets/volume/volume.vala:438
+msgid "Simple ALSA playback volume indicator."
+msgstr ""
+
+#: ../applets/weather/weather-forecast.vala:28
+msgid "Extended forecast for %s"
+msgstr ""
+
+#: ../applets/weather/weather.vala:42
+#: ../applets/weather/org.valapanel.weather.desktop.in:4
+msgid "Weather Applet"
+msgstr ""
+
+#: ../applets/weather/weather.vala:50
+msgid "Vala Panel Weather Applet"
+msgstr ""
+
+#: ../applets/weather/weather.vala:51
+msgid "Simple weather indicator."
+msgstr ""
+
+#: ../applets/weather/weather.vala:69
+msgid "Refresh"
+msgstr ""
+
+#: ../applets/weather/weather.vala:74
+msgid "Forecast..."
+msgstr ""
+
+#: ../applets/weather/weather.vala:189
+msgid "Conditions: %s"
+msgstr ""
+
+#: ../applets/weather/weather.vala:190
+msgid "Temperature: %s"
+msgstr ""
+
+#: ../applets/weather/weather.vala:191
+msgid "Humidity: %s"
+msgstr ""
+
+#: ../applets/weather/weather.vala:192
+msgid "Wind: %s"
+msgstr ""
+
+#: ../applets/weather/weather.vala:193
+msgid "Sunrise: %s"
+msgstr ""
+
+#: ../applets/weather/weather.vala:194
+msgid "Sunset: %s"
+msgstr ""
+
+#: ../applets/weather/weather.vala:195
+msgid "Refresh... (%s)"
+msgstr ""
+
+#: ../applets/weather/weather.vala:201
+msgid "Pressure:"
+msgstr ""
+
+#: ../applets/weather/weather.vala:202
+msgid "Wind:"
+msgstr ""
+
+#: ../applets/xkb/xkb-backend.vala:102
+msgid "XKB extension error. Keyboard layout plugin will not work"
+msgstr ""
+
+#: ../applets/xkb/xkb-config.vala:57
+msgid "Cannot initialize xkeyboard-config!"
+msgstr ""
+
+#: ../applets/xkb/xkb.vala:44
+msgid "Keyboard Layout Applet"
+msgstr ""
+
+#: ../applets/xkb/xkb.vala:55
+msgid "Vala Panel Keyboard Layout Applet"
+msgstr ""
+
+#: ../applets/xkb/xkb.vala:56
+msgid "Simple keyboard layout indicator."
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:25
+msgid "Weather Indicator Preferences"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:74
+msgid "<b>Appearance and Update</b>"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:85
+msgid "Show temperature near indicator"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:109
+msgid "Update every"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:123
+msgid "1"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:138
+msgid "minutes"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:159
+msgid "General"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:182
+msgid "<b>Temperature Scale</b>"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:199
+msgid "Imperial (°F)"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:215
+msgid "SI (metric, °C)"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:232
+msgid "Kelvin (K)"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:272
+msgid "<b>Wind Speed Unit</b>"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:289
+msgid "Meters per second (m/s)"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:305
+msgid "Miles per hour (mph)"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:322
+msgid "Kilometers per hour (km/h)"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:339
+msgid "Beaufort number"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:356
+msgid "Knots"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:394
+msgid "Units"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:427
+msgid "Active"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:442
+msgid "Location Name"
+msgstr ""
+
+#: ../applets/weather/ui/config.ui:524
+msgid "Locations"
+msgstr ""
+
+#: ../applets/weather/ui/forecast.ui:21
+msgid "Extended Forecast"
+msgstr ""
+
+#: ../applets/weather/ui/forecast.ui:51
+msgid "Date"
+msgstr ""
+
+#: ../applets/weather/ui/forecast.ui:62
+msgid "Icon"
+msgstr ""
+
+#: ../applets/weather/ui/forecast.ui:75
+msgid "Conditions"
+msgstr ""
+
+#: ../applets/weather/ui/forecast.ui:86
+msgid "Temperature"
+msgstr ""
+
+#: ../applets/weather/ui/forecast.ui:108
+msgid "Attrbution"
+msgstr ""
+
+#: ../applets/xkb/config.ui:43
+msgid "Keyboard Layout Settings"
+msgstr ""
+
+#: ../applets/xkb/config.ui:86
+msgid "Select layout per one window"
+msgstr ""
+
+#: ../applets/xkb/config.ui:101
+msgid "Show country flag"
+msgstr ""
+
+#: ../applets/xkb/config.ui:116
+msgid "Show country code"
+msgstr ""
+
+#: ../applets/xkb/config.ui:131
+msgid "Keep system layouts"
+msgstr ""
+
+#: ../applets/xkb/config.ui:150
+msgid "Indicator options"
+msgstr ""
+
+#: ../applets/xkb/config.ui:203 ../applets/xkb/config.ui:454
+msgid "Flag"
+msgstr ""
+
+#: ../applets/xkb/config.ui:217 ../applets/xkb/config.ui:468
+msgid "Layout Name"
+msgstr ""
+
+#: ../applets/xkb/config.ui:228 ../applets/xkb/config.ui:479
+msgid "Layout ID"
+msgstr ""
+
+#: ../applets/xkb/config.ui:239 ../applets/xkb/config.ui:490
+msgid "Variant ID"
+msgstr ""
+
+#: ../applets/xkb/config.ui:332
+msgid "Layouts"
+msgstr ""
+
+#: ../applets/xkb/config.ui:364
+msgid "Model"
+msgstr ""
+
+#: ../applets/xkb/config.ui:396
+msgid "Options"
+msgstr ""
+
+#: ../applets/xkb/config.ui:530 ../applets/xkb/config.ui:589
+msgid "Use"
+msgstr ""
+
+#: ../applets/xkb/config.ui:544
+msgid "Model Name"
+msgstr ""
+
+#: ../applets/xkb/config.ui:604
+msgid "Option Name"
+msgstr ""
+
+#: ../applets/batt/org.valapanel.battery.desktop.in:4
+msgid "Battery Indicator"
+msgstr ""
+
+#: ../applets/batt/org.valapanel.battery.desktop.in:6
+msgid "battery"
+msgstr ""
+
+#: ../applets/gtop/org.valapanel.gtop.desktop.in:4
+msgid "Network Load Indicator"
+msgstr ""
+
+#: ../applets/gtop/org.valapanel.gtop.desktop.in:6
+msgid "network-wired"
+msgstr ""
+
+#: ../applets/volume/org.valapanel.volume.desktop.in:4
+msgid "ALSA Volume Control Applet"
+msgstr ""
+
+#: ../applets/volume/org.valapanel.volume.desktop.in:6
+msgid "multimedia-volume-control"
+msgstr ""
+
+#: ../applets/weather/org.valapanel.weather.desktop.in:6
+msgid "weather-clear"
+msgstr ""
+
+#: ../applets/xkb/org.valapanel.xkb.desktop.in:4
+msgid "Keyboard Layout Indicator"
+msgstr ""
+
+#: ../applets/xkb/org.valapanel.xkb.desktop.in:6
+msgid "input-keyboard"
+msgstr ""
